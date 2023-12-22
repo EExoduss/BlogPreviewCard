@@ -1,0 +1,103 @@
+:root{
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 50%);
+--Black: hsl(0, 0%, 7%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+body{
+    background-color: var(--Yellow);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--White);
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0px black;
+
+    max-width: 24rem;
+    padding: 1.5rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 1rem;
+}
+
+.image{
+    border-radius: 0.7rem;
+
+    min-width: 100%;
+
+
+
+}
+
+.learn{
+    background-color: var(--Yellow);
+    border-radius: 0.3rem;
+
+    font-weight: 800;
+
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+
+
+}
+
+.date{
+    font-size: 0.9rem;
+
+
+}
+
+.main-title{
+    font-size: 1.5rem;
+    max-width: 100%;
+
+  
+}
+
+.main-content{
+    color: var(--Grey);
+
+    line-height: 1.5rem;
+   
+}
+
+.user{
+    font-weight: 800;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.user-img{
+    max-width: 2rem;
+}
